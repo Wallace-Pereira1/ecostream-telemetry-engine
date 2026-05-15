@@ -3,10 +3,10 @@ package domain
 import "time"
 
 type TelemetryEvent struct {
-	SensorID  string                 `json:"sensor_id"`
-	Timestamp time.Time              `json:"timestamp"`
-	Value     float64                `json:"value"`
-	Metadata  map[string]any         `json:"metadata"`
+	SensorID  string         `json:"sensor_id"`
+	Timestamp time.Time      `json:"timestamp"`
+	Value     float64        `json:"value"`
+	Metadata  map[string]any `json:"metadata"`
 }
 
 type SensorRange struct {
